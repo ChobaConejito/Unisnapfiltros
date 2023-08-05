@@ -1,0 +1,39 @@
+body{
+    background-image: url(fondo.jpg);
+}
+
+h3
+{
+  font-size: 25px !important;
+  background-color: rgb(241, 136, 215);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-color: aqua;
+
+}
+.btn-success:hover
+{
+  background-color: rgb(254, 114, 233);
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+button{
+    background-color: rgb(232, 153, 230);
+    font-weight: bold;
+    border-color: aqua;
+}
+
+
+@keyframes example {
+
+from {box-shadow: 1px 1px 38px rgb(252, 73, 249);}
+to {box-shadow: 1px 1px 38px rgb(213, 106, 255);}
+
+}
+
+
+
